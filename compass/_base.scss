@@ -130,7 +130,7 @@ hr {
 	};
 	clear: both;
   max-width: 140px;
-  margin: $fontSize auto;
+  margin: ($fontSize * 3) auto;
   position: relative;
 
   &:after {

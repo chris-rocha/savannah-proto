@@ -33,18 +33,18 @@
       <p class="lead">Veniam enim eiusmod ut cillum dolore in laboris <br />laborum culpa labore nisi dolore.</p>
       <hr />
     </div>
-    <div class="row">
 
     <div class="row">
       <div class="twenty-one columns offset-by-three">
+        <h3>Officia est nulla</h3>
+        <p>Veniam enim eiusmod ut cillum dolore in laboris laborum culpa labore nisi dolore. Mollit consectetur ad Excepteur fugiat eiusmod reprehenderit. In non ut sit dolore labore dolore ut Ut et laboris aute. Quis minim ut sit ut in nostrud do voluptate Ut sit dolore. Sint pariatur ut qui sed nisi nisi eiusmod sunt tempor. Dolor quis non occaecat est dolore adipisicing in occaecat. Aliqua magna officia cupidatat in sed ullamco. Ut enim occaecat nostrud sed aliquip tempor Duis minim exercitation laborum.</p>
+        <p>Reprehenderit fugiat deserunt deserunt elit ad est qui. Aliqua laborum magna veniam id voluptate nisi id. Velit elit cupidatat exercitation proident sunt exercitation consectetur elit eu ullamco deserunt voluptate. Sunt reprehenderit pariatur ad dolore cillum veniam reprehenderit sed id. Eiusmod incididunt consectetur proident sint ex incididunt.</p>
 
         <figure>
           <img style="width: 100%; display: block;" class="scale-with-grid" src="images/dev/inline-photo.jpg" />
         </figure>
 
-        <h3>Officia est nulla</h3>
-        <p>Veniam enim eiusmod ut cillum dolore in laboris laborum culpa labore nisi dolore. Mollit consectetur ad Excepteur fugiat eiusmod reprehenderit. In non ut sit dolore labore dolore ut Ut et laboris aute. Quis minim ut sit ut in nostrud do voluptate Ut sit dolore. Sint pariatur ut qui sed nisi nisi eiusmod sunt tempor. Dolor quis non occaecat est dolore adipisicing in occaecat. Aliqua magna officia cupidatat in sed ullamco. Ut enim occaecat nostrud sed aliquip tempor Duis minim exercitation laborum.</p>
-        <p>Reprehenderit fugiat deserunt deserunt elit ad est qui. Aliqua laborum magna veniam id voluptate nisi id. Velit elit cupidatat exercitation proident sunt exercitation consectetur elit eu ullamco deserunt voluptate. Sunt reprehenderit pariatur ad dolore cillum veniam reprehenderit sed id. Eiusmod incididunt consectetur proident sint ex incididunt.</p>
+
       </div>
     </div>
 
