@@ -49,8 +49,6 @@
     </div>
 
 
-    </div>
-
     <div class="row">
       <div class="three columns">
         <div class="swatch"><span>Three</span></div>
