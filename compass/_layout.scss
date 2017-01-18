@@ -1,0 +1,98 @@
+/**
+ * SASS/SCSS/Compass Transcription of Skeleton Responsive Grid
+ * originally authored by Dave Gamache. This translation offers
+ * mixins that support fluid and as well as fixed grids to supplement
+ * the work that Dave Gamache has done.
+ * @author Dennis Thompson <http://www.atomicpages.net>
+ * @copyright Copyright (c) 2013 AtomicPages LLC
+ * @license MIT
+ * @version 1.6.3
+ */
+
+// IMPORTS
+@import "vars"; // import _global_variables.scss
+@import "mixins"; // import _mixins.scss
+@import "skeleton";
+// @import "sassy-buttons"; // get those sassy buttons in here!
+@import "compass/css3/user-interface";
+
+@import "fonts";
+
+.swatch {
+  // min-width: 100px;
+  width: 100%;
+  line-height: 30px;
+  position: relative;
+  border: 1px solid $fontColor;
+  span { text-align: center; position: absolute; width: 100%; bottom: 0; left: 0; border-top: 1px solid $fontColor; background-color: white;  font-size: 10px; line-height: 1; padding: 1em 0; text-transform: uppercase; letter-spacing: 0.1em; }
+
+  // width: 12%;
+  height: 124px;
+  // margin: 0 1% 2%;
+}
+
+
+/* SITE STYLES
+ * ------------------------------------------------ */
+*, *:before, *:after { @include box-sizing(border-box); }
+a[href^=tel] {color:inherit; text-decoration: none;}
+
+.fill {
+  // &.blue {background-color: $gulfBlue;}
+}
+
+.color {
+  // &.blue {color: $gulfBlue;}
+}
+
+figure {
+  margin: ($fontSize * 4) auto;
+}
+
+
+.center-text { text-align: center; }
+.all-caps { text-transform: uppercase; }
+
+/* PAGE STYLES
+ * ------------------------------------------------ */
+/* Add page styles here */
+/* For example: .page-home { background: rgba(0, 0, 0, 0.4); } */
+
+/* MEDIA QUERIES
+ * ------------------------------------------------ */
+/* Otherwise known as custom responsive code! Write it here! */
+@media only screen and (min-width: $baseWidthMQ) and (max-width: 1280px) {
+	/* add code here */
+}
+
+/* Smaller than standard #{strip-units($baseWidthMQ)} (devices and browsers) */
+@media only screen and (max-width: $baseWidthMQ - 1) {
+	/* add code here */
+}
+
+/* Tablet Portrait size to standard #{strip-units($baseWidthMQ)} (devices and browsers) */
+@media only screen and (min-width: $tabletWidth) and (max-width: $baseWidthMQ - 1) {
+	/* add code here */
+}
+
+/* All Mobile Sizes (devices and browser) */
+@media only screen and (max-width: $tabletWidth - 1) {
+	/* add code here */
+  .region-content {
+    /*.comment {display: inherit;
+      h3 {display: inherit;}
+      .submitted {display: inherit; width: auto;}
+      .content {display: inherit;}
+    }*/
+  }
+}
+
+/* Mobile Landscape Size to Tablet Portrait (devices and browsers) */
+@media only screen and (min-width: 480px) and (max-width: $tabletWidth - 1) {
+	/* add code here */
+}
+
+/* Mobile Portrait Size to Mobile Landscape Size (devices and browsers) */
+@media only screen and (max-width: 479px) {
+	/* add code here */
+}

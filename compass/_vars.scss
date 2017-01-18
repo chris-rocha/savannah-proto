@@ -1,0 +1,64 @@
+// GLOBAL VARIABLES - include your variables here or alter the predefined vars
+// See skeleton file for copyright info
+
+// MY VARIABLES
+// $foo: "bar";
+
+// Primary
+$warning: 'red';
+$gulfBlue: #2390AC;
+$coastalAqua: #8ED3D1;
+$calicoCoral: #EA6D63;
+$charcoal: #4B4B4B;
+$lightGray: #AFAFAF;
+
+$blackFox: #4f4840;
+$dorianGray: #acaa9e;
+
+$borderWidth: 1px;
+$formFieldWidth: 280px;
+
+// $inputHeight: 34px;
+
+// background vars
+$backgroundColor: #fff; // default background information
+
+// font vars
+$fontSize: 14px; // default font size. Change here will adjust sizes across the board.
+$fontFamily: "Poppins", Arial, sans-serif; // default fonts
+$fontColor: rgb(51,51,51); // default font color
+$boldFamily: $fontFamily;
+$regularFamily: $fontFamily;
+
+// form vars
+$formFont: $fontFamily; // default form font
+
+// link vars
+$linkColor: $gulfBlue; // default link INERT color
+$linkHoverColor: $calicoCoral; // default link HOVER color
+$linkDecoration: none; // default link decoration
+
+// heading vars
+$headingFamily: "didonesqueroman", serif; // default heading font
+$headingColor: $gulfBlue; // default heading color
+
+// grid variables
+$baseWidth: 		960px; // change this to alter the overall width of the grid
+
+
+// DEPCREATED: will be removed in 2.0
+$baseWidthMQ:		960px; // base width for media query calculations in layout file
+
+
+$baseColWidth: 		40px; // change this the alter the grid calculation, see _mixins file for more details
+$baseGutterWidth:	20px; // calculation has changed, this is mainly here for consistency with 960.gs
+$isFluid: 			true; // want a fluid grid by default?
+
+// ------ CHANGE MAY CAUSE UNDESIRED RESULTS
+$baseColCount: 		24; // number of cols to generate
+
+// media query dimensions
+$desktopWidth: 960px;
+$tabletWidth: 			698px;
+$mobilePortraitWidth: 	300px;
+$mobileLandscapeWidth: 	420px;
