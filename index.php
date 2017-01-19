@@ -8,7 +8,9 @@
 <!--[if IE 8 ]><html class="ie ie8"> <![endif]-->
 <!--[if (gte IE 9)|!(IE)]><!--><html> <!--<![endif]-->
 <head>
-  <title>Visit Savannah GA!</title>
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1" />
+<meta charset="utf-8" />
+<title>Visit Savannah GA!</title>
   <link href="https://fonts.googleapis.com/css?family=Poppins:300,400,700" rel="stylesheet">
   <link type="text/css" rel="stylesheet" href="stylesheets/style.css" media="all">
   <script
