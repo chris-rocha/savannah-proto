@@ -34,9 +34,10 @@
 
   <div class="container">
     <div class="eighteen columns offset-by-six center-text">
+      <hr class="ornate" />
       <h2>Headline Headline H2</h2>
       <p class="lead">Veniam enim eiusmod ut cillum dolore in laboris laborum culpa labore nisi dolore.</p>
-      <hr />
+      <hr class="ornate bottom" />
     </div>
 
     <div class="row">
@@ -64,7 +65,7 @@
     <div class="row remove-bottom center-text">
       <h2>Columns</h2>
     </div>
-    <div class="row">
+    <div class="row step-in">
       <div class="three columns">
         <div class="swatch"><span>Three</span></div>
       </div>
@@ -75,9 +76,7 @@
         <div class="swatch"><span>Three</span></div>
       </div>
     </div>
-
-
-    <div class="row">
+    <div class="row step-in">
       <div class="one columns">
         <div class="swatch"><span>1</span></div>
       </div>
@@ -151,8 +150,7 @@
         <div class="swatch"><span>1</span></div>
       </div>
     </div>
-
-    <div class="row">
+    <div class="row step-in">
       <div class="two columns">
         <div class="swatch"><span>Two</span></div>
       </div>

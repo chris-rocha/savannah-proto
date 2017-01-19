@@ -29,6 +29,12 @@
   // width: 12%;
   height: 124px;
   // margin: 0 1% 2%;
+  @include transition(all 250ms ease-in);
+
+  // @include opacity(0);
+
+  // &.show { @include opacity(1.0); }
+
 }
 
 

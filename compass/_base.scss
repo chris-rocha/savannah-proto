@@ -133,15 +133,23 @@ hr {
   margin: ($fontSize * 3) auto;
   position: relative;
 
-  &:after {
-  	content: "•";
-  	color: $fontColor;
+  &.ornate:after {
+  	content: "";
+  	width: 30px;
+  	height: 8px;
+  	background: transparent url("../images/pineapple-top.png") 0 0 no-repeat;
   	position: absolute;
-  	top: 50%;
+  	bottom: 0;
   	left: 50%;
-  	@include translate(-50%, -46%);
-  	font-size: 32px;
+  	@include translateX(-50%);
   }
+
+  &.ornate.bottom:after {
+  	background-position: 0 100%;
+  	bottom: auto;
+  	top: 1px;
+  }
+
 }
 
 

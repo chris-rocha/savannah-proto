@@ -2,9 +2,11 @@
   $(document).ready(function(){
 
 
-    // add if mobile later
     document.addEventListener('touchstart', function() {}, false);
 
+    // $('.step-in .swatch').hide().delay(500).each(function(i) {
+    //   $(this).delay(i*120).fadeIn('slow');
+    // });
 
 
     $(document).keydown(function(e){
