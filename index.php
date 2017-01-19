@@ -33,9 +33,9 @@
   </section>
 
   <div class="container">
-    <div class="twenty-four columns center-text">
+    <div class="eighteen columns offset-by-six center-text">
       <h2>Headline Headline H2</h2>
-      <p class="lead">Veniam enim eiusmod ut cillum dolore in laboris <br />laborum culpa labore nisi dolore.</p>
+      <p class="lead">Veniam enim eiusmod ut cillum dolore in laboris laborum culpa labore nisi dolore.</p>
       <hr />
     </div>
 
@@ -53,7 +53,17 @@
       </div>
     </div>
 
+    <div class="row center-text">
+      <div class="eighteen columns offset-by-six">
+        <hr />
+        <h2>Related Articles</h2>
+        <p class="lead">Paritaqui sunt velibus resed maximus cone dolenientest quunda naturoleni oditatur aliquaspidel.</p>
+      </div>
+    </div>
 
+    <div class="row remove-bottom center-text">
+      <h2>Columns</h2>
+    </div>
     <div class="row">
       <div class="three columns">
         <div class="swatch"><span>Three</span></div>
@@ -69,5 +79,27 @@
 
 
   </div>
+
+  <section class="fill tan" style="padding: 60px 0;">
+    <div class="container center-text">
+      <div class="row">
+        <h5 class="color gray">Sponsored</h5>
+      </div>
+      <div class="twelve columns offset-by-four">
+        <img class="scale-with-grid" src="images/dev/ad1.jpg" />
+      </div>
+      <div class="eight columns">
+        <img class="scale-with-grid" src="images/dev/ad2.jpg" />
+      </div>
+    </div>
+  </section>
+
+  <section id="footer">
+    <div class="center-text" style="background-color: #eee; padding: 30px 0; color: #999; font-size: 18px;">
+      FOOTER
+    </div>
+  </section>
+
+
 </body>
 </html>

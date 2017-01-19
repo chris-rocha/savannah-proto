@@ -38,11 +38,13 @@
 a[href^=tel] {color:inherit; text-decoration: none;}
 
 .fill {
-  // &.blue {background-color: $gulfBlue;}
+  &.tan {background-color: $tan;}
+  &.gray {background-color: $gray;}
 }
 
 .color {
-  // &.blue {color: $gulfBlue;}
+  &.tan {color: $tan;}
+  &.gray {color: $gray;}
 }
 
 figure {

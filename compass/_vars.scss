@@ -6,14 +6,8 @@
 
 // Primary
 $warning: 'red';
-$gulfBlue: #2390AC;
-$coastalAqua: #8ED3D1;
-$calicoCoral: #EA6D63;
-$charcoal: #4B4B4B;
-$lightGray: #AFAFAF;
-
-$blackFox: #4f4840;
-$dorianGray: #acaa9e;
+$tan: #e4e0cf;
+$gray: #8c8c8c;
 
 $borderWidth: 1px;
 $formFieldWidth: 280px;
@@ -34,13 +28,13 @@ $regularFamily: $fontFamily;
 $formFont: $fontFamily; // default form font
 
 // link vars
-$linkColor: $gulfBlue; // default link INERT color
-$linkHoverColor: $calicoCoral; // default link HOVER color
-$linkDecoration: none; // default link decoration
+$linkColor: $fontColor; // default link INERT color
+$linkHoverColor: $fontColor; // default link HOVER color
+$linkDecoration: underline; // default link decoration
 
 // heading vars
 $headingFamily: "didonesqueroman", serif; // default heading font
-$headingColor: $gulfBlue; // default heading color
+$headingColor: $fontColor; // default heading color
 
 // grid variables
 $baseWidth: 		960px; // change this to alter the overall width of the grid

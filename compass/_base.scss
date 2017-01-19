@@ -78,8 +78,9 @@ h4 {
 	margin-bottom: round($fontSize * 0.333);
 }
 h5 {
-	font-size: round($fontSize * 1.4166);
-	line-height: $fontSize * 2;
+	font-size: 16px;
+	text-transform: uppercase;
+	letter-spacing: 4px;
 }
 h6 {
 	font-size: round($fontSize * 1.1666);
@@ -109,7 +110,6 @@ blockquote {
 	line-height: $fontSize * 2.75;
 	margin: 0;
 	padding: 10px 0;
-	color: $calicoCoral;
 
 	p { margin: 0; }
 	// em { text-transform: none; font-family: $headingFamily; font-weight: 900; }
@@ -205,8 +205,8 @@ input[type="submit"],
 input[type="reset"],
 input[type="button"] {
 	@include appearance(none);
-	background-color: rgba($calicoCoral, 1.0);
-	border: $borderWidth solid $calicoCoral;
+	background-color: rgba($fontColor, 1.0);
+	border: $borderWidth solid $fontColor;
 	@include border-radius(0);
 	color: white;
 	display: inline-block;
@@ -223,9 +223,9 @@ input[type="button"] {
 	@include transition(all 250ms ease-in-out);
 
 	&:hover {
-		background-color: rgba($gulfBlue, 1.0);
+		background-color: rgba($fontColor, 1.0);
 		color: white;
-		border-color: rgba($gulfBlue, 1.0);
+		border-color: rgba($fontColor, 1.0);
 	}
 	// &:active {	}
 	// &:visited { color: $fontColor; }
