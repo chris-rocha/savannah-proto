@@ -24,9 +24,12 @@
 </head>
 <body>
   <section id="header">
-    <div class="center-text" style="background-color: #eee; padding: 30px 0; color: #999; font-size: 18px; margin-bottom: 20px;">
+    <div class="center-text" style="background-color: #eee; padding: 30px 0; color: #999; font-size: 18px;">
       NAV
     </div>
+  </section>
+  <section id="hero" style="margin-bottom: 20px;">
+    <img style="width: 100%; display: block;" class="scale-with-grid" src="images/dev/hero1.jpg" />
   </section>
 
   <div class="container">
