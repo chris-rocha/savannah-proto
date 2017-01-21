@@ -15,10 +15,11 @@
     // create a scene
     new ScrollMagic.Scene({
           triggerElement: "figure" // could be another selector
-          , duration: 600
+          // , offset: -($(window).height()) / 4
+          // , duration: 600
         })
         .setClassToggle("figure", 'active')
-        .setPin("figure")
+        // .setPin("figure")
         // .addIndicators()
         .addTo(controller); // assign the scene to the controller
 
@@ -42,3 +43,25 @@
   //
 
 })(jQuery);
+
+// $(function () { // wait for document ready
+//   // init
+//   var controller = new ScrollMagic.Controller({
+//     globalSceneOptions: {
+//       triggerHook: 'onLeave'
+//     }
+//   });
+
+//   // get all slides
+//   var slides = document.querySelectorAll("section.panel.stick");
+
+//   // create scene for every slide
+//   for (var i=0; i<slides.length; i++) {
+//     new ScrollMagic.Scene({
+//         triggerElement: slides[i]
+//       })
+//       .setPin(slides[i])
+//       .addIndicators() // add indicators (requires plugin)
+//       .addTo(controller);
+//   }
+// });

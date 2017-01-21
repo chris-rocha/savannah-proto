@@ -21,6 +21,7 @@
 
   <script src="//cdnjs.cloudflare.com/ajax/libs/ScrollMagic/2.0.5/ScrollMagic.min.js"></script>
   <script src="//cdnjs.cloudflare.com/ajax/libs/ScrollMagic/2.0.5/plugins/debug.addIndicators.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/1.19.1/TweenMax.min.js"></script>
 
   <!--[if lt IE 9]>
     <script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
@@ -198,19 +199,22 @@
 
   </div>
 
+
+
   <section class="fill tan" style="padding: 60px 0;">
     <div class="container center-text">
       <div class="row">
         <h5 class="color gray">Sponsored</h5>
       </div>
       <div class="twelve columns offset-by-four">
-        <img class="scale-with-grid" src="images/dev/ad1.jpg" />
+        <img class="adv scale-with-grid" src="images/dev/ad1.jpg" />
       </div>
       <div class="eight columns">
-        <img class="scale-with-grid" src="images/dev/ad2.jpg" />
+        <img class="adv scale-with-grid" src="images/dev/ad2.jpg" />
       </div>
     </div>
   </section>
+
 
   <section id="footer">
     <div class="center-text" style="background-color: #eee; padding: 30px 0; color: #999; font-size: 18px;">
