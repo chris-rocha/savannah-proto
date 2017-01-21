@@ -18,6 +18,10 @@
         integrity="sha256-ZosEbRLbNQzLpnKIkEdrPv7lOy9C27hHQ+Xp8a4MxAQ="
         crossorigin="anonymous"></script>
   <script type="text/javascript" src="src/site.js"></script>
+
+  <script src="//cdnjs.cloudflare.com/ajax/libs/ScrollMagic/2.0.5/ScrollMagic.min.js"></script>
+  <script src="//cdnjs.cloudflare.com/ajax/libs/ScrollMagic/2.0.5/plugins/debug.addIndicators.min.js"></script>
+
   <!--[if lt IE 9]>
     <script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
   <![endif]-->
@@ -46,7 +50,8 @@
         <p>Veniam enim eiusmod ut cillum dolore in laboris laborum culpa labore nisi dolore. Mollit consectetur ad Excepteur fugiat eiusmod reprehenderit. In non ut sit dolore labore dolore ut Ut et laboris aute. Quis minim ut sit ut in nostrud do voluptate Ut sit dolore. Sint pariatur ut qui sed nisi nisi eiusmod sunt tempor. Dolor quis non occaecat est dolore adipisicing in occaecat. Aliqua magna officia cupidatat in sed ullamco. Ut enim occaecat nostrud sed aliquip tempor Duis minim exercitation laborum.</p>
         <p>Reprehenderit fugiat deserunt deserunt elit ad est qui. Aliqua laborum magna veniam id voluptate nisi id. Velit elit cupidatat exercitation proident sunt exercitation consectetur elit eu ullamco deserunt voluptate. Sunt reprehenderit pariatur ad dolore cillum veniam reprehenderit sed id. Eiusmod incididunt consectetur proident sint ex incididunt.</p>
 
-        <figure>
+        <div id="trigger"></div>
+        <figure id="testpin">
           <img style="width: 100%; display: block;" class="scale-with-grid" src="images/dev/inline-photo.jpg" />
         </figure>
 

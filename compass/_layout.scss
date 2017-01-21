@@ -55,6 +55,28 @@ a[href^=tel] {color:inherit; text-decoration: none;}
 
 figure {
   margin: ($fontSize * 4) auto;
+  overflow: hidden;
+  background-color: #eee;
+  // @include translateY(5%);
+  // @include opacity(0.5);
+  // @include transition(all 250ms ease-out);
+
+
+  img {
+    @include transition(all 250ms ease-out 100ms);
+    @include filter(blur(12px));
+
+  }
+  &.active {
+    // @include translateY(0);
+    // @include opacity(1.0);
+
+    img {
+      @include filter(blur(0));
+    }
+
+  }
+
 }
 
 
